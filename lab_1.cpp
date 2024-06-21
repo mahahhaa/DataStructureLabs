@@ -20,15 +20,15 @@ map<string, set<string> > neighbors{
 // Part 2
 void printNeighbors(const map<string, set<string>>& neighbors)
 {
-   for(auto i : neighbors)
-   {
-      cout << i.first << " borders with: ";
-      for(const string& j : i.second)
-      {
-         cout << j << " ";
-      }
-      cout << endl;
-   }
+   for (const auto& state : neighbors)
+    {
+       cout << state.first << " borders with: ";
+       for (const string& neighbor : state.second)
+       {
+          cout << neighbor << " ";
+       }
+       cout << endl;
+    }
 }
 
 // Part 3
