@@ -1,5 +1,5 @@
 // Tran, Lily (Team Leader)
-// Mouse, Mickey
+// Aljaffan, Maha
 
 // Part 1
 map<string, set<string> > neighbors{
