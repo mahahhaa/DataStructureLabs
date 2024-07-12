@@ -1,4 +1,5 @@
 // Tran, Lily
+
 if (root == nullptr)
   cerr << "Cannot delete from an empty tree.\n";
   
